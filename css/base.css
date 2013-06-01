@@ -17,17 +17,12 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 
 .container{
 	width: 100%;
-	height: 100%;    
+	height: 100%;  
+    position:absolute;
 }
 
 .row{
 	width: 100%;
-}
-
-.absolute-top{
-	position: absolute;
-	top: 0;
-	height: 335px;
 }
 
 .clearfix{
@@ -35,13 +30,15 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 }
 
 .absolute-right{		
-	position: fixed;
+	position: absolute;
 	right: 0;
     
 }
 
+/* START 0F HOME SECTION */
+
 #home{
-    position: fixed;
+    
     height: 100%;
     background-image: url('../assets/home_bg_gradient.png');
     background-repeat:repeat-x; 
@@ -53,7 +50,7 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 }
 
 #top-home{
-    position:fixed;
+    position:absolute;
     height: 38%; 
     
 }
@@ -91,7 +88,7 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 }
 
 #mid-home{
-    position: fixed;
+    position: absolute;
     top: 40%;
     height: 44%;
     background-color: #753D95;
@@ -106,14 +103,14 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 }
 
 #mid-home div{
-    position: fixed;
-    top: 42%;
+    position: absolute;
+    top: 2%;
     left: 50%;
 }
 
 
 #home-bottom{
-    position: fixed;
+    position: absolute;
     top: 84%;
 }
 
@@ -121,7 +118,7 @@ h1, h2, h3, h3, h4, h4, h5, h6{
     width: 60px;
     height: 60px;
     background-color: #753D95;
-    position: relative;
+    position: absolute;
     left: 55%;
     top: -30px;
     
@@ -131,13 +128,24 @@ h1, h2, h3, h3, h4, h4, h5, h6{
 }
 
 #scroll-plus{
-    position: fixed;
+    position: absolute;
     width: 60px;
     margin: 0;
     padding: 0 20px;
     left: 55%;
     font-size: 2em;
     z-index: 2;
+}
+
+/* END 0F HOME SECTION */
+
+#we{
+    top: 100%;
+}
+
+#we-header{
+    height: 100px;
+    background-color: #ffffff;
 }
 
 
