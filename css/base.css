@@ -428,6 +428,674 @@ a{
     overflow: hidden;
 }
 
+=======
+}
+
+#top-home{
+    position:absolute;
+    height: 38%; 
+    
+}
+
+#whirl{
+    max-width: 32%;
+}
+
+#m{
+  max-width: 11%;  
+}
+
+#logo_bg{	
+	left: 0;
+	top: 40%;
+	width: 450px;
+	position: absolute;
+	/*background-color: #753D95;*/    
+    /*overflow: hidden;*/
+    max-width: 31%;
+}
+
+#logo_bg img{
+    position: absolute;   
+}
+
+#logo-text-bg-image{
+    width: 100%;
+    max-width: 100%;
+}
+
+#logo-text{    
+    max-width: 85%;
+    margin: 10px 2px;
+}
+
+#mid-home{
+    position: absolute;
+    top: 40%;
+    height: 44%;
+    background-color: #753D95;
+    overflow: hidden;
+    
+    font-family: 'Tahoma'; /* to be changed */
+    font-size: 3em;
+    line-height: 0.1em;
+}
+
+#mid-home img{
+    height: 100%;
+    opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#mid-home div{
+    position: absolute;
+    top: 2%;
+    left: 50%;
+}
+
+
+#home-bottom{
+    position: absolute;
+    top: 84%;
+}
+
+#scroll-button{
+    width: 60px;
+    height: 60px;
+    background-color: #753D95;
+    position: absolute;
+    left: 55%;
+    top: -30px;
+    
+    transform: rotate(315deg);
+	-ms-transform: rotate(315deg); /* IE 9 */
+	-webkit-transform: rotate(315deg); /* Safari and Chrome */
+}
+
+#scroll-plus{
+    position: absolute;
+    width: 60px;
+    margin: 0;
+    padding: 0 20px;
+    left: 55%;
+    font-size: 2em;
+    z-index: 2;
+}
+
+/* END 0F HOME SECTION */
+
+#we{
+    top: 100%;
+}
+
+#we-header{
+    position: absolute;
+    height: 14%;
+    top: 100%;
+    background-color: #ffffff;
+}
+
+#we-header-logo{
+    max-width: 52%;
+    height: 100%;
+}
+
+#we-header-logo-bg{
+    width: 100%;
+    height: 100%;    
+}
+
+#we-header-logo-text{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 24%;
+}
+
+#nav-link-container{
+    top: 60%;
+    padding: 0;
+    margin: 0;
+}
+
+#we-content{
+    position: absolute;
+    height: 86%;
+    top: 14%;
+    overflow: hidden;
+    
+    background-image: url('../assets/we-content-bg-gradient.png');
+    background-repeat:repeat-x;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#B9B9B9), to(#949494));
+   background-image: -webkit-linear-gradient(top, #B9B9B9, #949494); 
+   background-image:    -moz-linear-gradient(top, #B9B9B9, #949494);
+   background-image:     -ms-linear-gradient(top, #B9B9B9, #949494);
+   background-image:      -o-linear-gradient(top, #B9B9B9, #949494);
+}
+
+#we-content div{
+    position: absolute;
+}
+
+#we-content p{
+    position: absolute;
+    color: #4E4D4D;
+    font-size: 1.4em;
+}
+
+#we-content-top-triangle{
+    width: 27%;
+    height: 45%;
+    background-image: url('../assets/top-triangle-bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+    -khtml-opacity:.50; 
+ -moz-opacity:.50; 
+ -ms-filter:"alpha(opacity=50)";
+  filter:alpha(opacity=50);
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+  opacity:.50; 
+}
+
+#we-content-bottom-triangle{
+    width: 73%;
+    height: 75%;
+    bottom: 0;
+    background-image: url('../assets/bottom-triangle-bg.png');
+}
+
+#we-content-para1{    
+    width: 69%;
+    height: 12%;
+    top: 8%;
+    left: 27%;
+}
+
+#we-content-para2{
+    top: 33%;
+    left: 44%;
+    width: 49%;    
+}
+
+.we-items{
+  position: absolute;
+  top: 75%;  
+  width: 5%;
+}
+
+#man-with-lamp{
+    position: absolute;
+    bottom: -4%;
+    right: 0;
+    width: 18%;   
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#we-item-1{
+    left: 6%;
+}
+
+#we-item-2{
+    left: 15%;
+}
+
+#we-item-3{
+    left: 24%;
+}
+
+/* end of we section */
+
+#phil-content{
+    position: absolute;
+    height: 86%;
+    background-color: #4C2752;
+    top: 200%;
+    overflow: hidden;
+    
+    font-family: 'Tahoma'; /* to be changed */
+    font-size: 2em;
+    line-height: 0.1em;
+    color: #979797;
+}
+
+#phil-left-rot-div{
+    position: absolute;
+    width: 43%;  
+    height: 100%;
+    background-image: url('../assets/phil-left-rot.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+#phil-right-rot-div{
+    position: absolute;
+    width: 29%;
+    height: 100%;
+    right: 0;
+    top: 5%;    
+    background-image: url('../assets/phil-right-rot.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+#phil-bottom-div{
+    position: absolute;
+    height: 25%;
+    background-color: #ffffff;
+    bottom: 0;
+}
+
+#phil-b-s-1{
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    color: #D93680;
+    font-size: 1.24em;
+    line-height: 0.5em;
+    width: 14%;
+}
+
+#phil-b-s-2{
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    color: #DD532B;
+    font-size: 0.85em;
+    width: 14%;
+}
+
+#phil-left-top-msg{
+    position: absolute;
+    left: 13%;
+    top: 5%;
+}
+
+#phil-main-content{
+    position: absolute; 
+    left: 43%;
+    top: 6%;
+    width: 40%;
+    font-size: 0.5em;
+    line-height: 1.5em;
+    color: #979797;
+}
+
+#phil-main-content p{
+    width: 100%;
+}
+
+#phil-main-content p span{
+    color: #ffffff;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+#phil-main-content ul{    
+    position: absolute;
+    top: 130%;
+    list-style-type: circle;
+}
+
+#phil-main-content ul li{
+    font-size: 1em;
+    line-height: 1.5em;
+    text-decoration: none;
+    display: block;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+
+#phil-main-content ul li:before {
+    font-size: 0.8em;
+    content: "+";
+    color: #d93680;
+    padding-right: 15px;
+}
+
+#phil-cont-f-lst{
+    left: -40%;    
+}
+
+#phil-cont-s-lst{
+    left: 15%;
+}
+
+#artist-graphiti{
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+    width: 65%;
+    opacity:0.6;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+#clients-separator{
+    position: absolute;
+    height: 90%;
+    top: 5%;
+    left: 22%;
+}
+
+#clients-text{
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    font-size: 1.28em;
+    width: 8%;
+}
+
+#dynamic-cl-logo-cont{
+    position: absolute;
+    width: 56%;
+    height: 90%;
+    top: 10%;
+    left: 43%;
+    overflow: hidden;
+}
+/* end of phil content */
+
+#work-content{
+    position: absolute;
+    height: 86%;
+    background-color: #D3D3D3;
+    top: 286%;
+    overflow: hidden;
+}
+
+#work-left-rot-div{
+    position: absolute;
+    width: 43%;  
+    height: 70%;
+    background-image: url('../assets/work-left-rot.png');
+    background-repeat:no-repeat;
+    background-size: contain;   
+}
+
+#work-heading{
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    height: 7%;
+    color: #DD532B;
+    padding: 0;
+    margin: 0;
+    font-size: 3em;
+    line-height: 1em;
+}
+
+#work-message{
+    position: absolute;
+    top: 17%;
+    left: 6%;
+    color: #3B3B3B;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+#work-category-div{
+    position: absolute;
+    top: 38%;
+    left: 5.5%;
+    height: 21px;
+    max-width: 50%;
+    min-width: 10%;
+}
+
+#work-dynamic-content{
+    position: absolute;
+    top: 39%;
+    height: 45%;
+}
+
+#work-right-rot-div{
+    position: absolute;
+    width: 48%;
+    height: 100%;
+    right: 0;
+    top: 0;    
+    /*background-image: url('../assets/work-right-rot.png');
+    background-repeat:no-repeat;
+    background-size: contain;*/
+}
+
+#work-right-rot-div img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    z-index: 3;
+}
+
+
+
+#work-right-bot-msg{
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    
+    font-family: 'Tahoma'; /* to be changed */
+    font-size: 1.5em;
+    line-height: 0.1em;
+    color: #ffffff;
+    z-index: 4;
+}
+
+#work-right-bot-msg p{
+    width: 100%;
+}
+
+#work-right-bot-msg p span{
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 0.8em;
+}
+
+/* end of work section */
+
+#contact-content{
+    position: absolute;
+    height: 86%;
+    background-color: #CFCFCF;
+    top: 372%;
+    overflow: hidden;
+}
+
+#cntct-top-left-rot{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 43%;
+    height: 95%;
+    
+    background-image: url('../assets/cntct-top-left-rot.png');
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+#cntct-dtls{
+    position: absolute;
+    top: 12%;
+    left: 2%;
+    
+    width: 51%;
+    height: 40%;
+}
+
+#cntct-dtls span{
+    font-family: 'Myriad Pro';
+    font-size: 0.9em;
+    line-height: 1em;
+}
+
+#cntct-dtls img{
+    position: absolute;
+}
+
+.tabText{
+    position: absolute;
+    left: 80px;
+}
+
+#lat-long-text{
+    top: 35%;
+}
+
+#latLong-icon{
+    top: 38%;
+}
+
+#phn-text{
+    top: 55%;
+}
+
+#phn-icon{
+    top: 56%;
+}
+
+#email-text{
+    top: 70%;
+}
+
+#email-icon{
+    top: 71%;
+}
+
+#cntct-msg{
+    position: absolute;
+    right: 5%;
+    width: 52%;
+    height: 60%;
+}
+
+#cntct-msg span{
+    position: absolute;    
+    
+}
+
+#cnt-msg1{
+    top: 6%;
+    color: #D93681;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+#cnt-msg2{
+    top: 25%;
+    color: #222222;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+#cnt-msg3{
+    top: 45%;
+    color: #222222;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+
+#cnt-msg4{
+    bottom: 6%;
+    color: #222222;
+    font-size: 1.3em;
+    line-height: 1.2em;
+}
+
+#cntct-input{
+    position: absolute;
+    top: 64%;
+    right: 5%;
+    width: 52%;
+}
+
+#cntct-input input[type=text]{
+    height: 30px;
+    width: 40%;
+}
+
+#cntct-input textarea{
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 81%;
+    height: 80px;
+}
+
+#cntct-submit{
+    position: absolute;
+    top: 135px;
+    left: 0;
+    width: 100px;
+    height: 40px;
+}
+
+/* end of contact section */
+
+#map-content{
+    position: absolute;
+    top: 458%;
+    height: 60%;
+}
+
+/* end of map content */
+
+#footer-content{
+    position: absolute;
+    top: 518%;
+    height: 40%;
+    background-color: #D1D1D1;
+}
+
+#footer-all-content{
+    position: absolute;
+    left: 30%;
+    width: 70%;
+    height: 100%;
+}
+
+#external-logos{
+    position: absolute; 
+    top: 40%;
+}
+
+#subscribe-box{
+    position: absolute; 
+    left: 150px;
+    top: 20%;
+}
+
+#subscrb-email{
+    position: absolute; 
+    left: 65px;
+    top: 52px;
+    background: none;
+    border: none;
+    color: #8A8A8A;
+}
+
+#copyright-info{
+    position: absolute; 
+    left: 500px;
+    top: 20%;
+    width: 360px;
+    font-size: 14px;
+    color: #818181;
+}
+
+#copyright-info p{
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#copyright-text{
+    position: absolute;
+    bottom: 10px;
+    right: 27%;
+    font-size: 14px;
+    color: #818181;
+}
+>>>>>>> All Section complete [basic]
 /*
 #logo_rotate_div{
 	background-color: #D9D9D9;
